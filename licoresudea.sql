@@ -17,10 +17,10 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de datos: `db_empresa`
+-- Base de datos: `licoresudea`
 --
 CREATE DATABASE IF NOT EXISTS `db_empresa` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `db_empresa`;
+USE `licoresudea`;
 -- --------------------------------------------------------
 
 --
