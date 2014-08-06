@@ -11,8 +11,8 @@ $root_path = "img/cervezas/";
 		$ruta[0]= $root_path . "peroni.jpg";
 		$ruta[1]= $root_path . "club_colombia.jpg";
 		$ruta[2]=$root_path . "heineken.jpg";
-		$ruta[2]=$root_path . "corona.jpg";
-		$ruta[2]=$root_path . "miller.jpg";
+		$ruta[3]=$root_path . "corona.jpg";
+		$ruta[4]=$root_path . "miller.jpg";
 
 		$nombre = array();
 		$nombre[0] = "Peroni";
