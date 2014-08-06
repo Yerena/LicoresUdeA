@@ -11,11 +11,16 @@ $root_path = "img/cervezas/";
 		$ruta[0]= $root_path . "peroni.jpg";
 		$ruta[1]= $root_path . "club_colombia.jpg";
 		$ruta[2]=$root_path . "heineken.jpg";
+		$ruta[2]=$root_path . "corona.jpg";
+		$ruta[2]=$root_path . "miller.jpg";
 
 		$nombre = array();
-		$nombre[0] = "peroni";
-		$nombre[1] = "cc";
-		$nombre[2] = "h";
+		$nombre[0] = "Peroni";
+		$nombre[1] = "Club Colombia";
+		$nombre[2] = "Heiken";
+		$nombre[3] = "Corona";
+		$nombre[4] = "Miller";
+
 		echo'	<div class="accordian">
 			<ul>';	
 
