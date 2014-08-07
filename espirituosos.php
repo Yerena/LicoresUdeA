@@ -6,7 +6,32 @@
 	<body>
 <?php
 	include 'header.php';
-	try{	
+	$root_path = "img/otros/";
+		$ruta = array();
+		$ruta[0]= $root_path . "alba_crema.jpg";
+		$ruta[1]= $root_path . "baileys_cream.jpg";
+		$ruta[2]=$root_path . "jose_cuervo.jpg";
+		$ruta[3]=$root_path . "ginebra_jodphur.jpg";
+		$ruta[4]=$root_path . "black_label.jpg";
+		$ruta[5]=$root_path . "jack_daniels.jpg";
+		$ruta[6]=$root_path . "absolut_pears.jpg";
+		$ruta[7]=$root_path . "chivas_regal.jpg";
+		$ruta[8]=$root_path . "ron_zacapa.jpg";
+
+		$nombre = array();
+		$nombre[0] = "Alba Crema";
+		$nombre[1] = "Baileys Crema";
+		$nombre[2] = "Jose Cuervo";
+		$nombre[3] = "Ginebra Jodphur";
+		$nombre[4] = "Black label";
+		$nombre[5] = "Jack Daniels";
+		$nombre[6] = "Absolut Pears";
+		$nombre[7] = "Chivas Regal";
+		$nombre[8] = "Ron Zacapa";
+
+		echo'	<div class="accordian">
+			<ul>';	
+	/*try{	
 		require_once __DIR__ . "/db.php";
 		$state = $conn->prepare("SELECT * FROM licor WHERE (grados_alcohol > 20)");
 	   	$state->execute();
@@ -31,6 +56,7 @@
 	}catch(PDOException $pdoe){
 		echo $pdoe->getMessage();
 	}
+	*/
 ?>
 	</body>
 </html>
