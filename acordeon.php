@@ -14,6 +14,11 @@
 		$ruta[1]= $root_path . "club_colombia.jpg";
 		$ruta[2]=$root_path . "sauvignon_harlan.jpg";
 
+		$nombre = array();
+		$nombre[0] = "Espirtuosos";
+		$nombre[1] = "Cervezas";
+		$nombre[2] = "Vinos";
+
 		echo'	<div class="accordian">
 			<ul>';	
 
@@ -22,7 +27,7 @@
 			echo'
 				<li>
 					<div class="image_title">
-						<a href="#">Imagen</a>
+						<a href="#">'.$nombre[$i].'</a>
 					</div>
 					<a href="#">
 						<img src = "'.$ruta[$i].'"/>
